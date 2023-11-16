@@ -8,7 +8,7 @@ export default function Home() {
     <main className="">
       <Hero />
       {/* container  */}
-      <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl bg-white text-gray-700 overflow-x-hidden">
+      <div className="container px-4 lg:px-8 mx-auto max-w-screen-xl bg-white text-gray-700">
         <About />
         <Features />
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const About = () => {
   return (
@@ -36,9 +37,11 @@ const About = () => {
               <h1 className="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">
                 Meet Our Visionaries
               </h1>
-              <button className="rounded-full text-white border text-xs lg:text-md px-6 py-3 w-full font-medium focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                Connect with Our Team
-              </button>
+              <Link href={"https://wa.me/2347010936181"} target="_blank">
+                <button className="rounded-full text-white border text-xs lg:text-md px-6 py-3 w-full font-medium focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                  Connect with Our Team
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -55,9 +58,14 @@ const About = () => {
               <h1 className="uppercase text-white font-bold text-center text-sm lg:text-xl mb-3">
                 Explore Our Work
               </h1>
-              <button className="rounded-full text-white text-xs lg:text-md px-6 py-3 w-full font-medium focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out bg-accent">
-                Discover Our Portfolio
-              </button>
+              <Link
+                href={"https://www.youtube.com/watch?v=K24hSj-SO0A"}
+                target="_blank"
+              >
+                <button className="rounded-full text-white text-xs lg:text-md px-6 py-3 w-full font-medium focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out bg-accent">
+                  Discover Our Portfolio
+                </button>
+              </Link>
             </div>
           </div>
         </div>

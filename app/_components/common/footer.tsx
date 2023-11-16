@@ -15,7 +15,7 @@ const Footer = () => {
         />
         <p className="font-bold">
           GreenFlames. <br />
-          Training acting talents since 2021
+          Elevate Your Story
         </p>
         <p>Copyright © 2023 - All right reserved</p>
       </aside>
